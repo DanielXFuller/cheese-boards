@@ -1,5 +1,5 @@
-const { sequelize } = require('./db');
-const { User, Board, Cheese } = require('./models');
+const { sequelize } = require('./db.js');
+const { User, Board, Cheese } = require('./index.js');
 
 describe('Database tests', () => {
   beforeAll(async () => {
